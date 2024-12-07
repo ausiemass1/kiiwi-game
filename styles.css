@@ -1,13 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    /* border: 1px solid red; */
 }
 
 body {
     background-color: cadetblue;
-    background-image: -webkit-linear-gradient(rgb(175,75,75), rgb(31,31,31), rgb(59,153,148));
-    min-height: 800px; 
+    background-image: linear-gradient(rgb(175 75 75), rgb(31 31 31), rgb(59 153 148));
+    min-height: 800px;
 }
 
 #game {
@@ -16,7 +15,6 @@ body {
  border: 1px solid black;
  margin: 1rem auto;
  background: url("images/logo.gif");
- /* background-size: cover; */
  overflow: hidden;
 }
 
@@ -55,6 +53,7 @@ body {
     height: 50px;
     width: 50px;
 }
+
 #bird img{
     width: 50px;
     height: 50px;
